@@ -1,0 +1,25 @@
+{
+  "jhipsterApp": {
+    "mapsIdUserProfileWithDTO": {
+      "home": {
+        "title": "Maps Id User Profile With DTOS",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Maps Id User Profile With DTO",
+        "createOrEditLabel": "Create or edit a Maps Id User Profile With DTO",
+        "notFound": "No Maps Id User Profile With DTOS found"
+      },
+      "created": "A new Maps Id User Profile With DTO is created with identifier {{ param }}",
+      "updated": "A Maps Id User Profile With DTO is updated with identifier {{ param }}",
+      "deleted": "A Maps Id User Profile With DTO is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Maps Id User Profile With DTO {{ id }}?"
+      },
+      "detail": {
+        "title": "Maps Id User Profile With DTO"
+      },
+      "id": "ID",
+      "dateOfBirth": "Date Of Birth",
+      "user": "User"
+    }
+  }
+}

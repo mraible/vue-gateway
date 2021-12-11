@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.6.xsd">
+    <!--
+        Added the constraints for entity MapsIdUserProfileWithDTO.
+    -->
+    <changeSet id="20190117080030-2" author="jhipster">
+
+        <addForeignKeyConstraint baseColumnNames="id"
+                                 baseTableName="maps_id_user_profile_withdto"
+                                 constraintName="fk_maps_id_user_profile_withdto__user_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="_user"/>
+    </changeSet>
+</databaseChangeLog>

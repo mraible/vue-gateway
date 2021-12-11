@@ -1,0 +1,72 @@
+{
+  "jhipsterApp": {
+    "fieldTestEntity": {
+      "home": {
+        "title": "Field Test Entities",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Field Test Entity",
+        "createOrEditLabel": "Create or edit a Field Test Entity",
+        "notFound": "No Field Test Entities found"
+      },
+      "created": "A new Field Test Entity is created with identifier {{ param }}",
+      "updated": "A Field Test Entity is updated with identifier {{ param }}",
+      "deleted": "A Field Test Entity is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Field Test Entity {{ id }}?"
+      },
+      "detail": {
+        "title": "Field Test Entity"
+      },
+      "id": "ID",
+      "stringTom": "String Tom",
+      "stringRequiredTom": "String Required Tom",
+      "stringMinlengthTom": "String Minlength Tom",
+      "stringMaxlengthTom": "String Maxlength Tom",
+      "stringPatternTom": "String Pattern Tom",
+      "numberPatternTom": "Number Pattern Tom",
+      "numberPatternRequiredTom": "Number Pattern Required Tom",
+      "integerTom": "Integer Tom",
+      "integerRequiredTom": "Integer Required Tom",
+      "integerMinTom": "Integer Min Tom",
+      "integerMaxTom": "Integer Max Tom",
+      "longTom": "Long Tom",
+      "longRequiredTom": "Long Required Tom",
+      "longMinTom": "Long Min Tom",
+      "longMaxTom": "Long Max Tom",
+      "floatTom": "Float Tom",
+      "floatRequiredTom": "Float Required Tom",
+      "floatMinTom": "Float Min Tom",
+      "floatMaxTom": "Float Max Tom",
+      "doubleRequiredTom": "Double Required Tom",
+      "doubleMinTom": "Double Min Tom",
+      "doubleMaxTom": "Double Max Tom",
+      "bigDecimalRequiredTom": "Big Decimal Required Tom",
+      "bigDecimalMinTom": "Big Decimal Min Tom",
+      "bigDecimalMaxTom": "Big Decimal Max Tom",
+      "localDateTom": "Local Date Tom",
+      "localDateRequiredTom": "Local Date Required Tom",
+      "instantTom": "Instant Tom",
+      "instantRequiredTom": "Instant Required Tom",
+      "zonedDateTimeTom": "Zoned Date Time Tom",
+      "zonedDateTimeRequiredTom": "Zoned Date Time Required Tom",
+      "durationTom": "Duration Tom",
+      "durationRequiredTom": "Duration Required Tom",
+      "booleanTom": "Boolean Tom",
+      "booleanRequiredTom": "Boolean Required Tom",
+      "enumTom": "Enum Tom",
+      "enumRequiredTom": "Enum Required Tom",
+      "uuidTom": "Uuid Tom",
+      "uuidRequiredTom": "Uuid Required Tom",
+      "byteImageTom": "Byte Image Tom",
+      "byteImageRequiredTom": "Byte Image Required Tom",
+      "byteImageMinbytesTom": "Byte Image Minbytes Tom",
+      "byteImageMaxbytesTom": "Byte Image Maxbytes Tom",
+      "byteAnyTom": "Byte Any Tom",
+      "byteAnyRequiredTom": "Byte Any Required Tom",
+      "byteAnyMinbytesTom": "Byte Any Minbytes Tom",
+      "byteAnyMaxbytesTom": "Byte Any Maxbytes Tom",
+      "byteTextTom": "Byte Text Tom",
+      "byteTextRequiredTom": "Byte Text Required Tom"
+    }
+  }
+}

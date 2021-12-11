@@ -1,0 +1,26 @@
+{
+  "jhipsterApp": {
+    "fieldTestEnumWithValue": {
+      "home": {
+        "title": "Field Test Enum With Values",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Field Test Enum With Value",
+        "createOrEditLabel": "Create or edit a Field Test Enum With Value",
+        "notFound": "No Field Test Enum With Values found"
+      },
+      "created": "A new Field Test Enum With Value is created with identifier {{ param }}",
+      "updated": "A Field Test Enum With Value is updated with identifier {{ param }}",
+      "deleted": "A Field Test Enum With Value is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Field Test Enum With Value {{ id }}?"
+      },
+      "detail": {
+        "title": "Field Test Enum With Value"
+      },
+      "id": "ID",
+      "myFieldA": "My Field A",
+      "myFieldB": "My Field B",
+      "myFieldC": "My Field C"
+    }
+  }
+}

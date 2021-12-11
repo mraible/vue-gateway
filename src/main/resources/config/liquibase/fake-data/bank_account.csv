@@ -1,0 +1,11 @@
+id;name;guid;bank_number;agency_number;last_operation_duration;mean_operation_duration;mean_queue_duration;balance;opening_day;last_operation_date;active;account_type;attachment;attachment_content_type;description
+1;monitor;20d01664-3bc8-420c-9630-498729d92007;98235;59937;61205;21844;4492;23597;2020-08-04;2020-08-04T08:07:16;true;LOAN;../fake-data/blob/hipster.png;image/png;../fake-data/blob/hipster.txt
+2;User-centric;35a34bb5-9b6b-47c7-aa89-58f45e98ba41;87053;4327;21080;3173;20551;34696;2020-08-03;2020-08-04T06:54:36;false;CHECKING;../fake-data/blob/hipster.png;image/png;../fake-data/blob/hipster.txt
+3;Mountains Malaysia Solutions;e626b927-4132-4996-a0bb-f0274fab9b07;65217;41117;47513;94647;96785;10771;2020-08-04;2020-08-04T15:53:42;true;SAVINGS;../fake-data/blob/hipster.png;image/png;../fake-data/blob/hipster.txt
+4;repurpose front-end Expressway;f3c57c69-a10c-41c0-bb63-0f56835b1938;55866;27001;81016;81758;8291;36066;2020-08-04;2020-08-04T02:09:37;false;SAVINGS;../fake-data/blob/hipster.png;image/png;../fake-data/blob/hipster.txt
+5;program;99bb3d07-b847-446c-ae42-61228e2129a5;56474;72871;44714;99545;44141;48465;2020-08-04;2020-08-04T08:04:36;true;LOAN;../fake-data/blob/hipster.png;image/png;../fake-data/blob/hipster.txt
+6;harness Georgia Towels;9a030c9c-f365-491e-b463-a54428c5e6ce;11841;97008;43960;99994;52465;36512;2020-08-04;2020-08-04T14:43:32;true;CHECKING;../fake-data/blob/hipster.png;image/png;../fake-data/blob/hipster.txt
+7;Strategist stable Clothing;3ea32f72-9737-4f82-84a0-d47ec7d28f62;65963;69382;73369;85445;19720;1385;2020-08-04;2020-08-03T17:26:55;false;SAVINGS;../fake-data/blob/hipster.png;image/png;../fake-data/blob/hipster.txt
+8;utilize redundant;bce5013c-97f1-406d-b993-9b22d15a7649;29571;43843;34620;21195;86055;33096;2020-08-03;2020-08-04T06:11:28;false;LOAN;../fake-data/blob/hipster.png;image/png;../fake-data/blob/hipster.txt
+9;Sandwich Money;1f2460da-50f0-4669-8e4c-690e22fcf1ad;20623;13883;11019;92840;80209;85066;2020-08-04;2020-08-04T03:05:55;false;CHECKING;../fake-data/blob/hipster.png;image/png;../fake-data/blob/hipster.txt
+10;engineer Berkshire framework;b04ac385-fa20-48e9-8360-14b1476c713a;10572;97103;22986;62309;2362;11549;2020-08-03;2020-08-04T09:02:42;false;LOAN;../fake-data/blob/hipster.png;image/png;../fake-data/blob/hipster.txt

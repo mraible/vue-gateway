@@ -1,0 +1,24 @@
+{
+  "jhipsterApp": {
+    "entityWithServiceImplAndDTO": {
+      "home": {
+        "title": "Entity With Service Impl And DTOS",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Entity With Service Impl And DTO",
+        "createOrEditLabel": "Create or edit a Entity With Service Impl And DTO",
+        "notFound": "No Entity With Service Impl And DTOS found"
+      },
+      "created": "A new Entity With Service Impl And DTO is created with identifier {{ param }}",
+      "updated": "A Entity With Service Impl And DTO is updated with identifier {{ param }}",
+      "deleted": "A Entity With Service Impl And DTO is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Entity With Service Impl And DTO {{ id }}?"
+      },
+      "detail": {
+        "title": "Entity With Service Impl And DTO"
+      },
+      "id": "ID",
+      "louis": "Louis"
+    }
+  }
+}

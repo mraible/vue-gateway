@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.6.xsd">
+
+    <property name="now" value="now()" dbms="h2"/>
+    <property name="now" value="current_timestamp" dbms="postgresql"/>
+    <property name="floatType" value="float4" dbms="postgresql, h2"/>
+    <property name="floatType" value="float" dbms="mysql, oracle, mssql, mariadb"/>
+    <property name="clobType" value="longvarchar" dbms="h2"/>
+    <property name="clobType" value="clob" dbms="mysql, oracle, mssql, mariadb, postgresql"/>
+    <property name="uuidType" value="uuid" dbms="h2, postgresql"/>
+    <property name="datetimeType" value="datetime(6)" dbms="mysql, mariadb"/>
+    <property name="datetimeType" value="datetime" dbms="oracle, mssql, postgresql, h2"/>
+
+    <include file="config/liquibase/changelog/00000000000000_initial_schema.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20150805125055_added_entity_Operation.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20160208184035_added_entity_FieldTestEntity.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20160208184036_added_entity_FieldTestInfiniteScrollEntity.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20160208184037_added_entity_FieldTestMapstructAndServiceClassEntity.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20160208184038_added_entity_FieldTestPaginationEntity.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20160208184039_added_entity_FieldTestServiceClassAndJpaFilteringEntity.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20160208184040_added_entity_FieldTestServiceImplEntity.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20160806123735_added_entity_EntityWithDTO.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20160806123739_added_entity_EntityWithServiceClassAndPagination.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20160806123740_added_entity_EntityWithServiceImplAndPagination.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20160806123742_added_entity_EntityWithServiceImplAndDTO.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20160806123743_added_entity_EntityWithPaginationAndDTO.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20160806123744_added_entity_EntityWithServiceClassPaginationAndDTO.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20160806123745_added_entity_EntityWithServiceImplPaginationAndDTO.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190117080030_added_entity_MapsIdUserProfileWithDTO.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20200415193919_added_entity_FieldTestEnumWithValue.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20200804163352_added_entity_BankAccount.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20200804163353_added_entity_Label.xml" relativeToChangelogFile="false"/>
+    <!-- jhipster-needle-liquibase-add-changelog - JHipster will add liquibase changelogs here -->
+    <include file="config/liquibase/changelog/20150805125055_added_entity_constraints_Operation.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190117080030_added_entity_constraints_MapsIdUserProfileWithDTO.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20200804163352_added_entity_constraints_BankAccount.xml" relativeToChangelogFile="false"/>
+    <!-- jhipster-needle-liquibase-add-constraints-changelog - JHipster will add liquibase constraints changelogs here -->
+    <!-- jhipster-needle-liquibase-add-incremental-changelog - JHipster will add incremental liquibase changelogs here -->
+</databaseChangeLog>

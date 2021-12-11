@@ -1,0 +1,9 @@
+{
+  "jhipsterApp": {
+    "MyEnumA": {
+      "null": "",
+      "AAA": "AAA",
+      "BBB": "BBB"
+    }
+  }
+}
